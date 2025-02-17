@@ -7,6 +7,34 @@ packages:
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Karthik-V-IBM-10
   gitBranch: bvt
+- name: WmJDBCAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
+services:
+- serviceName: project.siqa_1702_awspp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
+  packages:
+  - name: SIQA_1702_AWSPPProject
+    version: "1.0"
+- serviceName: project.siqa_1702_awspp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
+  packages:
+  - name: SIQA_1702_AWSPPProject
+    version: "1.0"
+- serviceName: project.siqa_1702_awspp.integrations:SIQAAdapterFlow
+  packages:
+  - name: SIQA_1702_AWSPPProject
+    version: "1.0"
+- serviceName: project.siqa_1702_awspp.integrations:Sum
+  packages:
+  - name: SIQA_1702_AWSPPProject
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
