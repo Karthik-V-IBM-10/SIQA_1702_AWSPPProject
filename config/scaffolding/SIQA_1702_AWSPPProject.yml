@@ -99,6 +99,20 @@ services:
     version: 10.3.0.0.32
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: project.siqa_1702_awspp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_CloudDB
+  packages:
+  - name: SIQA_1702_AWSPPProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.32
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.siqa_1702_awspp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
   packages:
   - name: SIQA_1702_AWSPPProject
